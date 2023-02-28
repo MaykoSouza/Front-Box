@@ -14,56 +14,68 @@ h1 {
     font-size: 3rem;
     font-weight: bold;
     padding-top: 55px;
+    
+}
+
+h2 {
+    position: relative;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 55px;
+    margin: auto;
 }
 
 h2.title {
     text-align: center;
     margin-bottom: 5rem;
     font-size: 2rem;
-    margin: 3rem;
+    margin: 0.5rem;
     font-size: 2rem;
 
 }
 
 hr {
-    height: 2px;
-    width: 200px;
-    margin: 40px auto;
-    background: linear-gradient(45deg, #8e2de2, #DE27E8);
+    
+    height: 4px;
+    width: 80%;
+    margin: 100px 10% 10px 10% ;
+    background: linear-gradient(45deg, #0407e2, #04afe4);
 }
+
 
 /* DIVISÃƒO DA PARTE DO CABEÃ‡ALHO*/
 
 header {
     height: auto;
-    background: #0bf969;
+    width: 100%;
+    background-image: linear-gradient(225deg, #00ffff 0, #00daff 25%, #10b1f8 50%, #288ac3 75%, #2a6792 100%);
     display: flex;
-    align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 0 10% 0 10%;
 
 }
 
-nav.menu {
-    display: flex;
-    flex-direction: row;
-}
 
-nav.menu a {
 
-    color: black;
-    text-decoration: none;
-    padding: 20px 20px;
+span .left {
+
 
 }
 
-/*DIVISÃƒO DA PARTE QUEM SOMOS */
+header img {
+width: 300px;
+padding: 20px;
+}
+
+
+/*DIVISÃO DA PARTE QUEM SOMOS */
 
 .somos {
-
-    max-width: 1200px;
-    margin: 0 auto;
+    
+    max-width: 100vw;
+    margin: 1rem;
+    padding: 5%;
 
 }
 
@@ -75,19 +87,15 @@ nav.menu a {
 
 .somos-c__texto {
     flex: 6 1 160px;
-    padding-left: 20px;
+    padding: 20px;
 }
 
-.somos-c__img {
-    flex: 1 1 350px;
-    padding: 0 10px;
-}
 
-/*DIVISAÃ• DA PARTE NOSSOS CURSOS*/
+/*DIVISÃO DA PARTE NOSSOS CURSOS*/
 
 section.cursos {
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 100vw;
+    
 }
 
 .container-cursos {
@@ -102,8 +110,8 @@ section.cursos {
     align-items: center;
     text-align: center;
     width: 300px;
-    padding: 20px;
-    margin: 0 auto;
+    
+    
     text-decoration: none;
 }
 
@@ -135,9 +143,11 @@ section.cursos {
 /*ESLTILIZANDO SEÇÃO  PLANOS */
 
 section.planos {
+    color: white;
     width: 100vw;
     height: auto;
-    background: #F3A0FD;
+    background-image: linear-gradient(225deg, #00ffff 0, #00daff 25%, #10b1f8 50%, #288ac3 75%, #2a6792 100%);
+    
 }
 
 .container-planos {
@@ -149,22 +159,23 @@ section.planos {
 }
 
 .container-planos button {
-    background: #F3A0FD;
+    background:white;
     width: 150px;
     height: 50px;
     margin-top: 20px;
-    border-style: solid;
-    border-width: 3px;
-    border-color: #DE27E8;
+    border-radius: 20px;
+    
+    border: none;
     cursor: pointer;
     transition: 0.5s;
 }
 
 .container-planos button:hover {
     transition: 0.5s;
-    box-shadow: inset black 10px 10px 50px 2px;
-    background: #DE27E8;
+    box-shadow:  black 10px 10px 50px 2px;
+    background: #288ac3;
     color: white;
+    
 }
 
 .plano1 {
@@ -174,25 +185,25 @@ section.planos {
     margin: 100px 35px 40px;
     border-style: solid;
     border-width: 3px;
-    border-color: #0bf969;
+    box-shadow: black 10px 10px 50px 2px;
+    border: none;
+    border-radius: 20px;
 }
 
 .plano2 {
 
     padding: 60px;
     margin: 60px 30px 40px;
-    border-style: solid;
-    border-width: 3px;
-    border-color: #0bf969;
+    box-shadow: black 10px 10px 50px 2px;
+    border-radius: 20px;
 }
 
 .plano3 {
-    background: #0bf969;
+    
     padding: 60px;
     margin: 20px 30px 40px;
-    border-style: solid;
-    border-width: 3px;
-    border-color: #DE27E8;
+    box-shadow: black 10px 10px 50px 2px;
+    border-radius: 20px;
 }
 
 .tipo1 h1::after {
@@ -201,7 +212,7 @@ section.planos {
     height: 5px;
     width: 50px;
     left: 40%;
-    background: #0bf969;
+    background: #0407e2;
 
 }
 
@@ -263,7 +274,7 @@ section.vantagens {
     width: 15px;
     height: 25px;
     margin-right: 5px;
-    background: #0bf969;
+    background: #0407e2;
 
 }
 
